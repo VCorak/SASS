@@ -6,10 +6,10 @@
   box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
 }
 
-// Padding variables
+// General padding variable
 $padding: 16px;
 
-//Sass color variables
+// Color variables
 $text-primary: white;
 $text-title: yellow;
 
@@ -30,6 +30,7 @@ body {
   background-attachment: fixed
 }
 
+// Nesting article sections
 article {
   display: flex;
   flex-wrap: wrap;
@@ -39,8 +40,8 @@ article {
     flex-grow: 1;
     flex-basis: 45%;
     border: 1px silver solid;
-    @include box-shadow;
-    padding: $padding;
+    @include box-shadow; // including box-shadow variable
+    padding: $padding; // general padding variable
     margin: 16px;
     clear: both;
     overflow: auto;
@@ -53,7 +54,7 @@ article {
   }
 
   code {
-    background: $black;
+    background: $black; // using color variable
     border: 1px solid #ddd;
     color: #666;
     page-break-inside: avoid;
@@ -83,7 +84,7 @@ article {
 h1,
 h2,
 h6 {
-  color: $text-title;
+  color: $text-title; // using color variable
 }
 
 h1 {
@@ -93,10 +94,11 @@ h1 {
 h6 {
   text-align: center;
   font-size: 2em;
-  padding: 32px;
+  padding: ($padding * 2); // general padding two times bigger
   margin-bottom: 0px
 }
 
+// Extended messages
 .message,
 .success,
 .error,
