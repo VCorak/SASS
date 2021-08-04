@@ -36,7 +36,7 @@ Mission is to rewrite the example.css to a scss file with the following changes:
 
 - [x] Nest the styling rules of grouped elements, like the sections in the Article.
 
-- [ ] Make use of extend to re-use the same CSS for the "success", "error" and "warning" messages.
+- [x] Make use of extend to re-use the same CSS for the "success", "error" and "warning" messages.
 
 ### Part 2 - the tricky part!
 - [ ] In the HTML, add 2 links called "blue" & "red".

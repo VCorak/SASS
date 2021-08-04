@@ -125,3 +125,29 @@ h6 {
   @extend %message-shared;
   background-color: $orange;
 }
+
+// Links
+$link: #4478A6;
+$visit: $orange;
+$hover: $green;
+$active: $red;
+
+a {
+  color: $green;
+  text-decoration: none;
+}
+
+ /* &:visited{
+    opacity: 0.42;
+    background-color: $visit;
+  }
+  &:hover{
+    opacity: 0.7;
+    text-decoration: underline;
+    color: $red;
+  }
+  &:active{
+    opacity: 1;
+    text-decoration: none;
+  }
+}*/

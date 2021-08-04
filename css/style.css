@@ -92,4 +92,24 @@ h6 {
   background-color: orange;
 }
 
+a {
+  color: green;
+  text-decoration: none;
+}
+
+/* &:visited{
+    opacity: 0.42;
+    background-color: $visit;
+  }
+  &:hover{
+    opacity: 0.7;
+    text-decoration: underline;
+    color: $red;
+  }
+  &:active{
+    opacity: 1;
+    text-decoration: none;
+  }
+}*/
+
 /*# sourceMappingURL=style.css.map */
