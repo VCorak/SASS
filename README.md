@@ -30,7 +30,7 @@ I am using Phpstorm, the moment you create a .scss file, it will offer you to ma
 Mission is to rewrite the example.css to a scss file with the following changes:
 
 ### Part 1
-- [ ] Make one mixin for the 3 lines of the box-shadow styling.
+- [x] Make one mixin for the 3 lines of the box-shadow styling.
 
 - [ ] Make the general padding the same everywhere with one variable. (red=16px, blue=8px), the footer h6 should have double the padding of the other elements. Use "operations" to do this. Do NOT hardcode the padding inside your scss. 
 
