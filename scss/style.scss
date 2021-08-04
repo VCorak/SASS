@@ -99,25 +99,29 @@ h6 {
 }
 
 // Extended messages
-.message,
-.success,
-.error,
-.warning {
+%message-shared {
   border: 1px solid #ccc;
   padding: 10px;
-  color: #2748B3;
-  background-color: #000;
+  color: $text-primary;
+  background-color: $black;
   width: 100%
 }
 
+.message {
+  @extend %message-shared;
+}
+
 .success {
-  background-color: green
+  @extend %message-shared;
+  background-color: $green;
 }
 
 .error {
-  background-color: red
+  @extend %message-shared;
+  background-color: $red;
 }
 
 .warning {
-  background-color: orange
+  @extend %message-shared;
+  background-color: $orange;
 }

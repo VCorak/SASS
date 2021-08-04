@@ -72,13 +72,10 @@ h6 {
   margin-bottom: 0px;
 }
 
-.message,
-.success,
-.error,
-.warning {
+.warning, .error, .success, .message {
   border: 1px solid #ccc;
   padding: 10px;
-  color: #2748B3;
+  color: white;
   background-color: #000;
   width: 100%;
 }
